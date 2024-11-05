@@ -30,6 +30,7 @@ public class SearchPane extends HBox{
 				filterBook.removeIf(book -> !book.getName().contains(searchText));
 			}
 			//TO-DO
+			BookListPane.getInstance().setSearchedBooks(filterBook);
 		});
 		this.getChildren().addAll(textField, searchButton);
 	}
