@@ -16,6 +16,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextAlignment;
 import pane.BookListPane;
+import pane.NewBookPane;
 import pane.RootPane;
 import pane.SearchPane;
 
