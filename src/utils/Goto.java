@@ -17,6 +17,7 @@ import javafx.scene.text.Text;
 import javafx.scene.text.TextAlignment;
 import pane.BookListPane;
 import pane.RootPane;
+import pane.SearchPane;
 
 public class Goto {
 	private static RootPane rootPane;
